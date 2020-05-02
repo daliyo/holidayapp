@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  holidayapp:
+    image: holidayapp
+    build: .
+    ports:
+      - 3000
